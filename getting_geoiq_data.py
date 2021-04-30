@@ -10,7 +10,7 @@ def get_geoiq_data(lat_long, radius, variable_list):
     longit = lat_long[0]
     
     body =  {
-        "key": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJtYWlsSWRlbnRpdHkiOiJhcnlhbl9zcml2YXN0YXZhQGJyb3duLmVkdSJ9.lXjdA4likjj5xKjV0hksrZFs3n_ndOdV0leIDCrf1wY",
+        "key": "",
         "lat": lat,
         "lng": longit,
         "variables": variable_list_string,
